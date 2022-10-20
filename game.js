@@ -17,6 +17,7 @@ function getUserGuess(){
     return answer;
 }
 
+//jkbb
 //Plays the rocker paper scissors game
 function rockPaperScissorsGame() {
     let rps = generateRPS();
