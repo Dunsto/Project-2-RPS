@@ -1,0 +1,62 @@
+:root{
+    background: linear-gradient(90deg, #aee9b6 0%, #114a36 100%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.game{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice {
+    margin: 50px;
+}
+
+i {
+    font-size: 300px;
+    color: rgb(59, 62, 62);
+    opacity: .5;
+}
+
+i:hover {
+    cursor: pointer;
+    color: rgba(68, 190, 190, 0.968);
+    opacity: 1;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 60px;
+    text-align: center;
+
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+}
+
+.play-button{
+    background: goldenrod;
+    scale: 2;
+    margin: 50px;
+    border: 4px solid rgb(103, 112, 48);
+}
+
+.play-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
